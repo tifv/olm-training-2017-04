@@ -1,0 +1,7 @@
+$style:
+- delegate: /_style
+- verbatim: |-
+    \renewcommand\jeolminstitution
+        {Московские сборы по математике}
+    \renewcommand\jeolmdaterange
+        {3 апреля --- 15 декабря 2017\,г.}

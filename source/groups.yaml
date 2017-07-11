@@ -1,0 +1,58 @@
+!!omap
+
+- $large$common$timetable: true
+- $common$timetable: &common-timetable !!omap
+  - 2017-04-03: [      3]
+  - 2017-04-04: [1, 2, 3]
+  - 2017-04-05: [1, 2, 3]
+  - 2017-04-06: [1, 2   ]
+  - 2017-04-07: [1, 2, 3]
+  - 2017-04-08: [1, 2, 3]
+  - 2017-04-09: [       ]
+  - 2017-04-10: [1, 2, 3]
+  - 2017-04-11: [1, 2, 3]
+  - 2017-04-12: [1, 2   ]
+  - 2017-04-13: [1, 2, 3]
+  - 2017-04-14: [1, 2, 3]
+  - 2017-04-15: [1, 2   ]
+
+- $large$groups[g9r1]: true
+- $groups[g9r1]:
+    name: Бубны
+    timetable: *common-timetable
+
+- $large$groups[g9r2]: true
+- $groups[g9r2]:
+    name: Треугольники
+    timetable: *common-timetable
+
+- $large$groups[g9r3]: true
+- $groups[g9r3]:
+    name: Колокола
+    timetable: *common-timetable
+
+- $large$groups[g10r1]: true
+- $groups[g10r1]:
+    name: Укулеле
+    timetable: *common-timetable
+
+- $large$groups[g10r2]: true
+- $groups[g10r2]:
+    name: Мандолины
+    timetable: *common-timetable
+
+- $large$groups[g10r3]: true
+- $groups[g10r3]:
+    name: Банджо
+    timetable: *common-timetable
+
+- $large$groups[g11r2]: true
+- $groups[g11r2]:
+    name: Баяны
+    timetable: *common-timetable
+
+- $large$groups[g11r1]: true
+- $groups[g11r1]:
+    name: Аккордеоны
+    timetable: *common-timetable
+
