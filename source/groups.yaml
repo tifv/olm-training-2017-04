@@ -18,41 +18,41 @@
 
 - $large$groups[g9r1]: true
 - $groups[g9r1]:
-    name: Бубны
+    name: 9-1 # Бубны
     timetable: *common-timetable
 
 - $large$groups[g9r2]: true
 - $groups[g9r2]:
-    name: Треугольники
+    name: 9-2 # Треугольники
     timetable: *common-timetable
 
 - $large$groups[g9r3]: true
 - $groups[g9r3]:
-    name: Колокола
+    name: 9-3 # Колокола
     timetable: *common-timetable
 
 - $large$groups[g10r1]: true
 - $groups[g10r1]:
-    name: Укулеле
+    name: 10-1 # Укулеле
     timetable: *common-timetable
 
 - $large$groups[g10r2]: true
 - $groups[g10r2]:
-    name: Мандолины
+    name: 10-2 # Мандолины
     timetable: *common-timetable
 
 - $large$groups[g10r3]: true
 - $groups[g10r3]:
-    name: Банджо
-    timetable: *common-timetable
-
-- $large$groups[g11r2]: true
-- $groups[g11r2]:
-    name: Баяны
+    name: 10-3 # Банджо
     timetable: *common-timetable
 
 - $large$groups[g11r1]: true
 - $groups[g11r1]:
-    name: Аккордеоны
+    name: 11-1 # Аккордеоны
+    timetable: *common-timetable
+
+- $large$groups[g11r2]: true
+- $groups[g11r2]:
+    name: 11-2 # Баяны
     timetable: *common-timetable
 

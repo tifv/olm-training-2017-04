@@ -34,30 +34,21 @@ Integral:
   - delegate: .[integral]
 
   $matter[integral]:
-  - delegate: g8r2
-  - delegate: g8r1
+  - delegate: g9r3
   - delegate: g9r2
   - delegate: g9r1
+  - delegate: g10r3
   - delegate: g10r2
   - delegate: g10r1
   - delegate: g11r2
   - delegate: g11r1
-  - delegate: gX
 
-  g8r2:
+  g9r1:
     $matter:
-    - verbatim: \chapter{8-2}
+    - verbatim: \chapter{9-1}
       condition: {not: no-chapter}
-    - verbatim: \begin{jeolmlabelspace}{g8r2}
-    - delegate: /[g8r2]
-    - verbatim: \end{jeolmlabelspace}
-
-  g8r1:
-    $matter:
-    - verbatim: \chapter{8-1}
-      condition: {not: no-chapter}
-    - verbatim: \begin{jeolmlabelspace}{g8r1}
-    - delegate: /[g8r1]
+    - verbatim: \begin{jeolmlabelspace}{g9r1}
+    - delegate: /[g9r1]
     - verbatim: \end{jeolmlabelspace}
 
   g9r2:
@@ -68,20 +59,12 @@ Integral:
     - delegate: /[g9r2]
     - verbatim: \end{jeolmlabelspace}
 
-  g9r1:
+  g9r3:
     $matter:
-    - verbatim: \chapter{9-1}
+    - verbatim: \chapter{9-3}
       condition: {not: no-chapter}
-    - verbatim: \begin{jeolmlabelspace}{g9r1}
-    - delegate: /[g9r1]
-    - verbatim: \end{jeolmlabelspace}
-
-  g10r2:
-    $matter:
-    - verbatim: \chapter{10-2}
-      condition: {not: no-chapter}
-    - verbatim: \begin{jeolmlabelspace}{g10r2}
-    - delegate: /[g10r2]
+    - verbatim: \begin{jeolmlabelspace}{g9r3}
+    - delegate: /[g9r3]
     - verbatim: \end{jeolmlabelspace}
 
   g10r1:
@@ -92,12 +75,20 @@ Integral:
     - delegate: /[g10r1]
     - verbatim: \end{jeolmlabelspace}
 
-  g11r2:
+  g10r2:
     $matter:
-    - verbatim: \chapter{11-2}
+    - verbatim: \chapter{10-2}
       condition: {not: no-chapter}
-    - verbatim: \begin{jeolmlabelspace}{g11r2}
-    - delegate: /[g11r2]
+    - verbatim: \begin{jeolmlabelspace}{g10r2}
+    - delegate: /[g10r2]
+    - verbatim: \end{jeolmlabelspace}
+
+  g10r3:
+    $matter:
+    - verbatim: \chapter{10-3}
+      condition: {not: no-chapter}
+    - verbatim: \begin{jeolmlabelspace}{g10r3}
+    - delegate: /[g10r3]
     - verbatim: \end{jeolmlabelspace}
 
   g11r1:
@@ -108,11 +99,11 @@ Integral:
     - delegate: /[g11r1]
     - verbatim: \end{jeolmlabelspace}
 
-  gX:
+  g11r2:
     $matter:
-    - verbatim: \chapter{X}
+    - verbatim: \chapter{11-2}
       condition: {not: no-chapter}
-    - verbatim: \begin{jeolmlabelspace}{gX}
-    - delegate: /[gX]
+    - verbatim: \begin{jeolmlabelspace}{g11r2}
+    - delegate: /[g11r2]
     - verbatim: \end{jeolmlabelspace}
 
